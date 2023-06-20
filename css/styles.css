@@ -14,7 +14,13 @@ body {
     background-color: #FFFFFF;
 }
 
-p, h1,h2,h3,h4,h5,h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -221,6 +227,12 @@ img {
 
 .introduction {
     background-color: var(--navy-blue);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7) 0%,
+            rgba(46, 47, 66, 0.7) 0%),
+        url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
 }
 
